@@ -7,5 +7,5 @@ spec:
   serviceAccountName: kafka-client-sa  # 如果不是这个名字，请修改
   containers:
     - name: msk-client
-      image: ghcr.io/yourusername/msk-client-kcat:latest  # 暂时占位
+      image: ghcr.io/yanzheng726/msk-client-kcat:latest  # 暂时占位
       command: [ "sleep", "36000" ]
